@@ -20,6 +20,7 @@ html {
     float: left;
     width: 30%;
     text-transform: uppercase;
+    padding-left: 25%;
 }
 
 .logo_header > h3 {
