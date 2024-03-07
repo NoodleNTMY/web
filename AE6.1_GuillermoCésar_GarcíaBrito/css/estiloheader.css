@@ -84,13 +84,6 @@ html {
     color: rgb(255, 107, 54);
 }
 
-.main_container {
-    border: 1px solid orangered;
-    border-top: 1px solid black;
-    margin-top: 10px;
-    padding: 10px;
-}
-
 /* 
 .header {
     background-color: rgb(75, 75, 75);
