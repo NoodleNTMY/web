@@ -1,0 +1,158 @@
+<!--1ASIRB - Guillermo César García Brito.-->
+<alumnos>
+    <alumno id="1">
+      <nombre>Guillermo</nombre>
+      <apellidos>Casanova Crespo</apellidos>
+      <direccion>
+        <nombre_via>Federico</nombre_via>
+        <tipo_via>Calle</tipo_via>
+        <numero>3</numero>
+        <ciudad>San Bartolome</ciudad>
+      </direccion>
+      <telefonos>
+        <telefono tipo="alumno">601219674</telefono>
+        <telefono tipo="padre"></telefono>
+        <telefono tipo="madre"></telefono>
+        <telefono tipo="tutor_legal">609876567</telefono>
+      </telefonos>
+      <equipo_deportivo>LosGuanches</equipo_deportivo>
+      <aficiones>
+        <aficion>Hokey</aficion>
+        <aficion></aficion>
+      </aficiones>
+      <origen>Venezuela</origen>
+      <comentarios>Chico muy humilde</comentarios>
+      <notas>
+        <nota evaluacion="primera">5.3</nota>
+        <nota evaluacion="segunda">6</nota>
+        <nota evaluacion="final">9.4</nota>
+      </notas>
+      <altura_cm>182</altura_cm>
+      <sexo>Hombre</sexo>
+      <alumno_ayudante_id>2</alumno_ayudante_id>
+    </alumno>
+    <alumno id="2">
+        <nombre>César</nombre>
+        <apellidos>Hernandez Garcia</apellidos>
+        <direccion>
+          <nombre_via>Pastoreo</nombre_via>
+          <tipo_via>Calle</tipo_via>
+          <numero>7</numero>
+          <ciudad>La Laguna</ciudad>
+        </direccion>
+        <telefonos>
+          <telefono tipo="alumno">605637736</telefono>
+          <telefono tipo="padre">609263648</telefono>
+          <telefono tipo="madre">609496648</telefono>
+          <telefono tipo="tutor_legal"></telefono>
+        </telefonos>
+        <equipo_deportivo></equipo_deportivo>
+        <aficiones>
+          <aficion>Escalada</aficion>
+          <aficion>Badminton</aficion>
+        </aficiones>
+        <origen>Canarias</origen>
+        <comentarios></comentarios>
+        <notas>
+          <nota evaluacion="primera">2</nota>
+          <nota evaluacion="segunda">3.4</nota>
+          <nota evaluacion="final">7</nota>
+        </notas>
+        <altura_cm>162</altura_cm>
+        <sexo>Hombre</sexo>
+        <alumno_ayudante_id>3</alumno_ayudante_id>
+      </alumno>
+      <alumno id="3">
+        <nombre>Bea</nombre>
+        <apellidos>Gil Covisa</apellidos>
+        <direccion>
+          <nombre_via>Rolos</nombre_via>
+          <tipo_via>Calle</tipo_via>
+          <numero>45</numero>
+          <ciudad>Santa Cruz de Tenerife</ciudad>
+        </direccion>
+        <telefonos>
+          <telefono tipo="alumno">609635910</telefono>
+          <telefono tipo="padre">756534098</telefono>
+          <telefono tipo="madre">608936475</telefono>
+          <telefono tipo="tutor_legal"></telefono>
+        </telefonos>
+        <equipo_deportivo></equipo_deportivo>
+        <aficiones>
+          <aficion>Leer</aficion>
+          <aficion></aficion>
+        </aficiones>
+        <origen>Valencia</origen>
+        <comentarios>Le cuestan los idiomas</comentarios>
+        <notas>
+          <nota evaluacion="primera">10</nota>
+          <nota evaluacion="segunda">10</nota>
+          <nota evaluacion="final">10</nota>
+        </notas>
+        <altura_cm>163</altura_cm>
+        <sexo>Mujer</sexo>
+        <alumno_ayudante_id>4</alumno_ayudante_id>
+      </alumno>
+      <alumno id="4">
+        <nombre>Marta</nombre>
+        <apellidos>Pereira Oliveira</apellidos>
+        <direccion>
+          <nombre_via>Doctor Alaska</nombre_via>
+          <tipo_via>Calle</tipo_via>
+          <numero>12</numero>
+          <ciudad>La Laguna</ciudad>
+        </direccion>
+        <telefonos>
+          <telefono tipo="alumno">673438347</telefono>
+          <telefono tipo="padre"></telefono>
+          <telefono tipo="madre">765678876</telefono>
+          <telefono tipo="tutor_legal"></telefono>
+        </telefonos>
+        <equipo_deportivo>FCBastion</equipo_deportivo>
+        <aficiones>
+          <aficion>Futbol</aficion>
+          <aficion></aficion>
+        </aficiones>
+        <origen>Brazil</origen>
+        <comentarios>Muy habilidosa con el esferico.</comentarios>
+        <notas>
+          <nota evaluacion="primera">4.5</nota>
+          <nota evaluacion="segunda">6</nota>
+          <nota evaluacion="final">5</nota>
+        </notas>
+        <altura_cm>170</altura_cm>
+        <sexo>Mujer</sexo>
+        <alumno_ayudante_id>5</alumno_ayudante_id>
+      </alumno>
+      <alumno id="5">
+        <nombre>Felipe</nombre>
+        <apellidos>Massa Garcia</apellidos>
+        <direccion>
+          <nombre_via>Doctor Pasteur</nombre_via>
+          <tipo_via>Calle</tipo_via>
+          <numero>42</numero>
+          <ciudad>La Laguna</ciudad>
+        </direccion>
+        <telefonos>
+          <telefono tipo="alumno">609735645</telefono>
+          <telefono tipo="padre">456234789</telefono>
+          <telefono tipo="madre"></telefono>
+          <telefono tipo="tutor_legal"></telefono>
+        </telefonos>
+        <equipo_deportivo></equipo_deportivo>
+        <aficiones>
+          <aficion>Caminar</aficion>
+          <aficion></aficion>
+        </aficiones>
+        <origen>Marruecos</origen>
+        <comentarios></comentarios>
+        <notas>
+          <nota evaluacion="primera">5</nota>
+          <nota evaluacion="segunda">5</nota>
+          <nota evaluacion="final">5</nota>
+        </notas>
+        <altura_cm>198</altura_cm>
+        <sexo>Hombre</sexo>
+        <alumno_ayudante_id>1</alumno_ayudante_id>
+      </alumno>
+  </alumnos>

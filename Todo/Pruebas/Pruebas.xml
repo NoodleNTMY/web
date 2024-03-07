@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "Pruebas.dtd">
+<alumnos>
+    <alumno id="alu001" sexo="mujer" alumno_ayudante="alu003">
+            <nombre>Harry</nombre>
+            <apellidos>Kokal</apellidos>
+            <telefonos>
+                <telefono propietario="Madre"></telefono>
+                <telefono propietario="Padre"></telefono>
+                <telefono propietario="Tutor"></telefono>
+                <telefono propietario="Alumno">601018218</telefono>
+            </telefonos>
+            <direccion>
+                <via tipo="calle">risco</via>
+                <numero>3</numero>
+                <ciudad>LaLaguna</ciudad>
+            </direccion>
+            <equipo_deportivo></equipo_deportivo>
+            <aficiones>
+                <aficion>Badminton</aficion>
+            </aficiones>
+            <procedencia origen="español">
+                <provincia_pais>Canarias</provincia_pais>
+            </procedencia>
+            <comentarios></comentarios>
+            <notas>
+                <primera tipo="nota">5</primera>
+                <segunda tipo="nota">6</segunda>
+                <tercera tipo="comentario">Que va brother</tercera>
+            </notas>
+            <estatura medido="cm">158</estatura>
+    </alumno>
+</alumnos>

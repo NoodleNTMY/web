@@ -1,0 +1,13 @@
+h1{
+    color:white;
+    background-color: black;
+    padding: 5px 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+dd {
+    font-weight: bold;
+    margin: 8px;
+    padding: 4px;
+}

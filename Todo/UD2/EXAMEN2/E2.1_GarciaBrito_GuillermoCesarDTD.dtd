@@ -1,0 +1,20 @@
+<!ELEMENT E2.1_GarciaBrito_GuillermoCesarDTD (produtos)>
+<!ELEMENT productos (producto)>
+<!ELEMENT producto (nombre,descripcion,seccion,precio,ofertas,fecha_fabricacion,cantidad)>
+    <!ATTLIST producto codigo ID #REQUIRED>
+    <!ATTLIST producto supermercado CDATA #IMPLIED>
+    <!ATTLIST producto perecedero (si|no) >
+<!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre marca CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT seccion (#PCDATA)>
+    <!ATTLIST seccion subseccion CDATA #IMPLIED>
+<!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio moneda (euros|dollars) #REQUIRED>
+<!ELEMENT ofertas (oferta)>
+    <!ATTLIST ofertas existen (si|no) #REQUIRED>
+<!ELEMENT oferta (empieza,finaliza,descripcion)>
+<!ELEMENT fecha_fabricacion (#PCDATA)>
+    <!ATTLIST fecha_fabricacion caduca_el CDATA #REQUIRED>
+<!ELEMENT cantidad (#PCDATA)>
+    <!ATTLIST cantidad medida CDATA #REQUIRED>

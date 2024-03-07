@@ -1,0 +1,15 @@
+h2{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+ul {
+    border: 3px black;
+    margin: 30px auto;
+}

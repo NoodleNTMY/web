@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+    background-color: black;
+    margin: 15px auto;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(196, 57, 57);
+    margin: 15px auto;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+table{
+    color:black;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+ul {
+    margin: 15px auto;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+li {
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+li:nth-child(2n) {
+    background-color: green;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 8px 5px;
+    border: 1px solid black
+}
+
+td{
+    padding: 8px 5px;
+    border: 1px solid black;
+}

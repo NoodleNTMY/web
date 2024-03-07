@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+  <coche marca="Ferrari">
+    <modelo>488pista</modelo>
+    <motor>V8;3,9L;720CV</motor>
+    <kilometraje>20.000km</kilometraje>
+    <matricula>9987CKL</matricula>
+    <precio_original>200.000€</precio_original>
+    <precio_oferta>199.999€</precio_oferta>
+    <extras>todos</extras>
+    <fotos>no</fotos>
+  </coche>
+  <coche marca="Citroen">
+    <modelo>saxo</modelo>
+    <motor>3cilindros;1.6L;120CV</motor>
+    <kilometraje>173.000km</kilometraje>
+    <matricula>1234BCD</matricula>
+    <precio_original>5.600€</precio_original>
+    <precio_oferta>4.900€</precio_oferta>
+    <extras>ninguno</extras>
+    <fotos>no</fotos>
+  </coche>
+</concesionario>

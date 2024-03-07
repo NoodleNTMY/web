@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.header {
+    border: 1px solid red;
+    display: flow-root;
+    height: 50px;
+}
+
+.left {
+    border: 1px solid green;
+    float: left;
+    width: 20%;
+}
+
+.menu_principal {
+    border: 1px solid blue;
+    float: right;
+    width: 80%;
+}
+
+.menu_principal > .menu {
+    list-style: none;
+    display: flow-root;
+}
+
+.menu_principal > .menu > .menu-item {
+    float: left;
+    width: 15%;
+}
+
+.menu_principal > .menu > .menu-item:nth-child(2) {
+    width: 35%;
+}
+
+.menu_principal > .menu > .menu-item a {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px;
+    background-color: black;
+    color: white;
+    display: block;
+    font-size: 1.1rem;
+}
+
+.menu_principal > .menu > .menu-item a:hover {
+    color: orangered;
+}
+
+/* 
+.header {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    float: left;
+    width: 100%;
+    border: solid 1px red;
+    margin-top: 3px;
+    margin-bottom: 1%;
+}
+
+.logo-header{
+    height: 35px;
+    padding-left: 5%;
+    border: solid 1px red;
+    float: left;
+}
+
+.naranja{
+    color: rgb(255, 107, 54);
+}
+
+.header ul li {
+    float: right;
+    list-style-type: none;
+    text-align: left;
+    border: solid 1px red;
+    padding-right: 5%;
+
+}
+
+.boton-header {
+    text-decoration: none;
+    color:white;
+    border: solid 1px red;
+}
+ */

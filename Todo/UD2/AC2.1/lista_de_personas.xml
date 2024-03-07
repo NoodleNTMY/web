@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_de_persona SYSTEM "lista_de_personas.dtd">
+<lista_de_personas>
+  <persona>
+    <nombre></nombre>
+    <fechanacimiento></fechanacimiento>
+    <sexo></sexo>
+    <numeroseguridadsocial></numeroseguridadsocial>
+  </persona>
+  <persona>
+    <nombre></nombre>
+    <fechanacimiento></fechanacimiento>
+    <sexo></sexo>
+    <numeroseguridadsocial></numeroseguridadsocial>
+  </persona>
+  <persona>
+    <nombre></nombre>
+    <fechanacimiento></fechanacimiento>
+    <sexo></sexo>
+    <numeroseguridadsocial></numeroseguridadsocial>
+  </persona>
+</lista_de_personas>

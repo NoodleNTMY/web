@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu .menu-item {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.menu > .menu-item > a {
+    background-color: rgb(251, 224, 185);
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu > .menu-item > a:hover {
+    background-color: rgb(188, 70, 23);
+    color: white;
+}
+
+.menu .menu-horizontall {
+    display: flow-root;
+}
+
+.menu .horizontal {
+    float: left;
+    width: 25%;
+}

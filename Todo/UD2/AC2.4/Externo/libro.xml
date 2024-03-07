@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<libro>
+  <titulo>La primavera</titulo>
+  <autor>Juan Flores</autor>
+  <seccion>
+    <nombre>Introduccion</nombre>
+    <contenido>
+      <parrafo>Esta es la introduccion</parrafo>
+    </contenido>
+  </seccion>
+  <seccion>
+    <nombre>Conclusiones</nombre>
+    <contenido>
+      <parrafo>Las flores salen</parrafo>
+      <parrafo>La sangre se altera</parrafo>
+    </contenido>
+  </seccion>
+</libro>

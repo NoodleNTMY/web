@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+  <equipo numero="1">
+  <nombre>F.C.Barcelona</nombre>
+  <ciudad>Barcelona</ciudad>
+  <entrenador></entrenador>
+  <jugadores>
+    <jugador posicion="portero">
+    <nombre>Marc-André ter Stegen</nombre>
+    <nacionalidad>Aleman</nacionalidad>
+    </jugador>
+    <jugador posicion="medio">
+    <nombre>Pablo Martín Páez Gavira</nombre>
+    <nacionalidad>Espanyola</nacionalidad>
+    </jugador>
+  </jugadores>
+  <equipo>
+</equipos>
+<equipo numero="2">
+  <nombre>C.D.Tenerife</nombre>
+  <ciudad>S/C de Tenerife</ciudad>
+  <entrenador></entrenador>
+  <jugadores>
+    <jugador posicion="delantero">
+    <nombre>Enric Gallego Puigsech</nombre>
+    <nacionalidad>Espanyol</nacionalidad>
+    </jugador>
+    <jugador posicion="medio">
+    <nombre>Luis Miguel Cruz Hernández</nombre>
+    <nacionalidad>Espanyol</nacionalidad>
+    </jugador>
+  </jugadores>
+</equipo>
+</equipos>

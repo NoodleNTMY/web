@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <lectura>
+    <libro tipo="libro">
+      <isbm>54-68176-41782-56</isbm>
+      <edicion>SM</edicion>
+      <paginas>354</paginas>
+      <autor>HarryKokal</autor>
+      <año>2003</año>
+    </libro>
+  </lectura>
+  <lectores>
+    <lector>
+      <nombre>Cristiano</nombre>
+      <fecha_prestamo>1/05/2023</fecha_prestamo>
+      <fecha_devolucion>15/06/2023</fecha_devolucion>
+    </lector>
+  </lectores>
+</biblioteca>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Guillermo César Garcia Brito 1 ASIR "B"-->
+<!DOCTYPE E2.1_GarciaBrito_GuillermoCesarDTD SYSTEM "E2.1_GarciaBrito_GuillermoCesarDTD.dtd">
+<E2.1_GarciaBrito_GuillermoCesarDTD>
+    <productos>
+        <producto codigo="586245" supermercado="dia" perecedero="no">
+            <nombre marca="axe">Deshodorante AXE, Black</nombre>
+            <descripcion>Deshodorante para pibes guays.</descripcion>
+            <seccion subseccion="higiene">cosmeticos y belleza</seccion>
+            <precio moneda="euro">3.5</precio>
+            <ofertas>
+                <oferta>
+                    <empieza></empieza>
+                    <finaliza></finaliza>
+                    <descripcion></descripcion>
+                </oferta>
+            </ofertas>
+            <fecha_fabricacion caduca_el=""></fecha_fabricacion>
+            <cantidad medida="litros">0.25</cantidad>
+        </producto>
+        <producto codigo="845216" supermercado="dialprix" perecedero="si">
+            <nombre marca="dialprix">Cuña de atun</nombre>
+            <descripcion>Cuña de ojaldre con relleno de atun de alta calidad.</descripcion>
+            <seccion subseccion="panaderia">Comida para llevar</seccion>
+            <precio moneda="euro">2</precio>
+            <ofertas>
+                <oferta>
+                    <empieza>13/10/2008</empieza>
+                    <finaliza>24/12/2025</finaliza>
+                    <descripcion>Llevate dos cuñas de atun dialprix por el precio de una (2x1)</descripcion>
+                </oferta>
+            </ofertas>
+            <fecha_fabricacion caduca_el="25/10/2023">24/10/2023</fecha_fabricacion>
+            <cantidad medida="gramos">380</cantidad>
+        </producto>
+    </productos> 
+</E2.1_GarciaBrito_GuillermoCesarDTD>
+
+<!-- No he podido verificar si todo valida debido a que tanto cuando hago el dtd interno o externo
+me da rerror en el nombre del documento, facilmente he gastado 35 minutos de mi tiempo intentando
+arreglarlo y de ninguna manera lo he conseguido. Espero que el dtd creado cumpla sus funciones y 
+que la estructura XML este bien-->

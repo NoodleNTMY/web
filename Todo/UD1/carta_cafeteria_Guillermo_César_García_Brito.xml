@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<carta>
+  <comidas>
+    <comida Tipo="Bocadillos">
+      <nombre>Tortilla del día</nombre>
+      <precio lugar="barra">4.20</precio>
+      <precio lugar="mesa">4.50</precio>
+    </comida>
+    <comida Tipo="Sanwiches">
+      <nombre>mixto jamon y queso</nombre>
+      <precio lugar="barra">3.20</precio>
+      <precio lugar="mesa">3.50</precio>
+    </comida>
+    <comida Tipo="Tapas">
+      <nombre>esalada rusa</nombre>
+      <precio lugar="barra">4.50</precio>
+      <precio lugar="mesa">4.80</precio>
+    </comida>
+    <comida Tipo="Bolleria">
+      <nombre>croissant</nombre>
+      <precio lugar="barra">1.60</precio>
+      <precio lugar="mesa">1.90</precio>
+    </comida>
+  </comidas>
+  <bebidas>
+  <bebida Tipo="caliente">
+      <nombre>cortado</nombre>
+      <precio lugar="barra">1.25</precio>
+      <precio lugar="mesa">1.55</precio>
+    </bebida>
+    <bebida Tipo="fria">
+      <nombre>zumo naranja natural</nombre>
+      <precio lugar="barra">2.30</precio>
+      <precio lugar="mesa">2.60</precio>
+    </bebida>
+    <bebida Tipo="refresco">
+      <nombre>agua con gas</nombre>
+      <precio lugar="barra">1.60</precio>
+      <precio lugar="mesa">1.90</precio>
+    </bebida>
+    <bebida Tipo="cerveza">
+      <nombre>caña</nombre>
+      <precio lugar="barra">1.60</precio>
+      <precio lugar="mesa">1.90</precio>
+    </bebida>
+  </bebidas>
+</carta>

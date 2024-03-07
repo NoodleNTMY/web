@@ -1,0 +1,13 @@
+h1{
+    color:white;
+    background-color: black;
+    margin: 20px auto;
+    text-align: center;
+}
+
+p{
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px auto;
+    background-color: lightgrey;
+}

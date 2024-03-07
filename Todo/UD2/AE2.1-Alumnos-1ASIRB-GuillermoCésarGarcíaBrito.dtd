@@ -1,0 +1,26 @@
+<!--1ASIRB - Guillermo César García Brito.-->
+
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, apellidos, direccion, telefonos, equipo_deportivo?, aficiones?, origen, comentarios?, notas?, altura_cm?, sexo?,)>
+<!ATTLIST alumno id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT direccion (nombre_via, tipo_via, numero, ciudad)>
+<!ELEMENT nombre_via (#PCDATA)>
+<!ELEMENT tipo_via (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT telefonos (telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono tipo (alumno,padre?,madre?,tutor_legal?) #REQUIRED>
+<!ELEMENT equipo_deportivo (#PCDATA)>
+<!ELEMENT aficiones (aficion+)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
+<!ELEMENT notas (nota+)>
+<!ELEMENT nota (#PCDATA)>
+<!ATTLIST nota evaluacion (primera?,segunda?,final?) #REQUIRED>
+<!ELEMENT altura_cm (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+<!ELEMENT alumno_ayudante_id (#PCDATA)>

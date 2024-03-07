@@ -1,0 +1,43 @@
+.superior {
+    color: green
+}
+
+.medio {
+    color: blue;
+}
+
+h1{
+    background-color: black;
+    color:white;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 15px auto;
+    padding: 20px;
+    border-collapse: collapse;
+    font-size: 20;
+}
+
+td{
+    color: black;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto auto;
+    text-align: center;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
+}
