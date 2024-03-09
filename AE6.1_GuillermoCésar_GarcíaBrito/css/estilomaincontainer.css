@@ -41,4 +41,16 @@ html {
     float: left;
     display: block;
     width: 20%;
+    display: flow-root;
+    padding-left: 1.5%;
+}
+
+.main_text > .text > p  {
+    font-size: 1.6rem;
+    float: left;
+    
+}
+
+.main_text > .images  {
+    border: solid 1px;
 }
