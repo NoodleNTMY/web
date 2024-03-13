@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.main_container {
+    border: 1px solid orangered;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sub_header {
+    border: 1px solid green;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
