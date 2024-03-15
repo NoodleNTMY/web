@@ -9,20 +9,31 @@ html {
 }
 
 .main_container {
-    border: 1px solid orangered;
     border-top: 1px solid black;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px 2.5%;
+    width: 100%;
 }
 
+.main_container > .main_img {
+    position: relative;
+}
 .main_container > .main_img > img {
-    padding-left: 1%;
-    width: 99%;
+    width: 100%;
+}
+
+.main_container > .main_img > p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 5rem;
+    width: 10%;
+    padding-top: 10%;
+    padding-left: 3%;
 }
 
 .main_text{
-    border: solid 1px;
-    padding-left: 1%;
     width: 99%;
     margin-top: 10px;
     padding: 10px;
@@ -30,27 +41,47 @@ html {
 }
 
 .text {
-    border: solid 1px;
     float: left;
     display: block;
     width: 40%;
 }
 
+.images {
+    display: flow-root;
+    border: none;
+}
+
 .images > img {
-    border: solid 1px;
     float: left;
     display: block;
-    width: 20%;
+    width: 30%;
     display: flow-root;
-    padding-left: 1.5%;
+    padding-left: 9%;
+}
+
+.text > .text_boton {
+    color: white;
+    background-color: rgb(88, 88, 88);
+    text-transform: uppercase;
+    padding:10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    display: block;
+}
+
+.text > .text_boton a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.text > .text_boton a:hover{
+    color: black;
 }
 
 .main_text > .text > p  {
     font-size: 1.6rem;
     float: left;
-    
-}
-
-.main_text > .images  {
-    border: solid 1px;
+    display: flow-root;
 }

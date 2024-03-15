@@ -9,14 +9,14 @@ html {
 }
 
 .main_container {
-    border: 1px solid orangered;
+
     padding: 10px;
     margin-top: 10px;
     display: flow-root;
 }
 
 .sub_header {
-    border: 1px solid green;
+
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ html {
 }
 
 .main_text > .logo_maintext {
-    border: solid 1px black;
+
     display: block;
     display: flow-root;
     margin: 10px 0;
@@ -63,7 +63,7 @@ html {
     color: black;
     text-align: center;
     padding: 6px;
-    border: solid 1px red;
+
     float: left;
     font-size: 2.8rem;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ html {
 
 .main_text > .logo_maintext > img {
     /* LOGO DE ALL SHOES de el recuadro de informacion */
-    border: solid 1px black;
+
     height: 45px;
     float: left;
 }
@@ -84,7 +84,7 @@ html {
 
 
 .main_text > p {
-    border: solid 1px black;
+
     padding-top:  30px;
     font-size: 1.8rem;
     margin: 10px 0;
@@ -92,7 +92,7 @@ html {
 }
 
 .main_text > .socials {
-    border: solid 1px black;
+
     display: flex;
     position: relative;
     height: 45px;
