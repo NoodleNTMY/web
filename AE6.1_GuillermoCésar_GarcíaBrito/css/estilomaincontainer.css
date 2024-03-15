@@ -1,8 +1,8 @@
 
 .main_container {
     border-top: 1px solid black;
-    margin-top: 10px;
-    padding: 20px 2.5%;
+    margin-top: 30px;
+    padding: 30px 2.5%;
     width: 100%;
 }
 
@@ -25,21 +25,23 @@
 }
 
 .main_text{
-    width: 99%;
-    margin-top: 10px;
-    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
     display: flow-root;
 }
 
 .text {
     float: left;
     display: block;
-    width: 40%;
+    width: 39%;
+    padding-left: 1%;
+    margin-top: 40px;
 }
 
 .images {
     display: flow-root;
     border: none;
+    width: 60%;
 }
 
 .images > img {
@@ -47,7 +49,7 @@
     display: block;
     width: 30%;
     display: flow-root;
-    padding-left: 9%;
+    margin-left: 3%;
 }
 
 .text > .text_boton {
