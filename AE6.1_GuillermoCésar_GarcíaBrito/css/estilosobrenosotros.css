@@ -12,6 +12,7 @@ html {
     border: 1px solid orangered;
     padding: 10px;
     margin-top: 10px;
+    display: flow-root;
 }
 
 .sub_header {
@@ -23,5 +24,89 @@ html {
     padding: 20px 0;
     font-size: 1.6rem;
     margin-top: 10px;
+    display: flow-root;
+}
+
+.main_info{
+    display: flow-root;
+}
+
+.main_info  > .main_picture > img {
+    float: left;
+    height: 650px;
+    width: 47%;
+    padding-left: 2.5%;
+    padding-top: 25px;
+    padding-right: 3.5%;
+}
+
+.main_info  > .main_text {
+    display: flow-root;
+    padding-top: 60px;
+}
+
+.main_text > h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.main_text > .logo_maintext {
+    border: solid 1px black;
+    display: block;
+    display: flow-root;
+    margin: 10px 0;
+}
+
+.main_text > .logo_maintext > h3 {
+    /* ALL SHOES de el recuadro de informacion */
+    color: black;
+    text-align: center;
+    padding: 6px;
+    border: solid 1px red;
+    float: left;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.main_text > .logo_maintext > img {
+    /* LOGO DE ALL SHOES de el recuadro de informacion */
+    border: solid 1px black;
+    height: 45px;
+    float: left;
+}
+
+.main_text > .bold{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+
+.main_text > p {
+    border: solid 1px black;
+    padding-top:  30px;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    width: 95%;
+}
+
+.main_text > .socials {
+    border: solid 1px black;
+    display: flex;
+    position: relative;
+    height: 45px;
+    gap: 50px;
+}
+
+.socials > a {
+    display: inline-block;
+}
+
+.socials > a > img {
+    height: 40px;
+    padding-right: 2%;
+    position: absolute;
+    bottom: 0;
 }
 
