@@ -1,0 +1,165 @@
+
+/* --- Guillermo César García Brito --- */
+
+.main_container {
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.sub_header {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: flow-root;
+    font-style: italic;
+}
+
+.info {
+    border: solid 1px black;
+    width: 50%;
+    display: flow-root block;
+    float: left;
+    margin-top: 35px;
+    padding-left: 3%;
+}
+
+.info > h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+
+.info > h6 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.info > p {
+    font-size: 1.5rem;
+    padding:5px 0;
+}
+
+.info > h4 {
+    font-size: 1.6rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.info > a > img {
+    margin-top: 15px;
+    float:left;
+    width: 5%;
+    margin-left: 4%;
+}
+
+/*---- FORM ---- */
+
+.form {
+    border: solid 1px red;
+    width: 50%;
+    display: flow-root block;
+    float: right;
+    margin-top: 35px;
+}
+
+.form > form {
+    margin-top: 20px;
+    padding-left: 5%;
+
+}
+
+.form > form > .nombre {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .nombre > input {
+    width: 90%;
+    padding: 10px;
+}
+
+.form > form > .email {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .email > input {
+    width: 90%;
+    padding: 10px;
+}
+
+.form > form > .telefono {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .telefono > input {
+    width: 90%;
+    padding: 10px;
+}
+
+.form > form > .tema {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .tema > input {
+    width: 90%;
+    padding: 10px;
+}
+
+.form > form > .mensaje {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .mensaje > textarea {
+    width: 90%;
+    padding: 10px;
+}
+
+.form > form > .condiciones {
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .condiciones > label > a{
+    font-weight: bold;
+    color: blue;
+}
+
+.form > form > .enviar> input {
+    width: 30%;
+    float: right;
+    padding: 10px;
+    margin-right: 10%;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+/*
+.form > form > input {
+    padding: 10px;
+    width: 90%;
+    font-weight: bold;
+    color: black;
+}
+
+.form > form > .boton_enviar {
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+.form > form > .checkbox {
+    font-weight: bold;
+    float: left;
+}
+*/

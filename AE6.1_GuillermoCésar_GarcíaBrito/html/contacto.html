@@ -4,8 +4,9 @@
     <meta cahrset="UTF-8">
     <title>AllShoes</title>
     <link rel="stylesheet" type="text/css" href="../css/estiloheader.css">
-    <link rel="stylesheet" type="text/css" href="../css/estilosobrenosotros.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilocontacto.css">
 </head>
+<!-- Guillermo César García Brito -->
 <body>
     <div class="header">
         <div class="logo_header">
@@ -37,15 +38,55 @@
             <h4>E-mail:</h4>
             <p>info@allshoes.es</p>
             <h4>Redes Sociales:</h4>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <a href="../index.html"><img src="../img/Logo.png" alt="Imagen de nuestro logo."></a>
+            <a href="https://www.facebook.com/?locale=es_ES"><img src="../img/facebook-icon.png" alt="Logo de Facebook."></a>
+            <a href="https://www.instagram.com"><img src="../img/instagram-logo.png" alt="Logo de Instagram."></a>
+            <a href="https://web.telegram.org/a/"><img src="../img/telegram-icon.png" alt="Logo de Telegram."></a>
+            <a href="https://twitter.com/?lang=es"><img src="../img/twitter-icon.png" alt="Logo de Twitter."></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../img/whatsapp-logo.png" alt="Logo de Whatsapp."></a>
         </div>
 
-        <div class="input">
-            
+        <div class="form">
+            <form action="/enviar" method="post">
+
+                <div class="nombre">
+                <input type="text" id="nombre" name="nombre" required placeholder="NOMBRE:"><br><br>
+                </div>
+
+                <div class="email">
+                <label for="email"></label><br>
+                <input type="email" id="email" name="email" required placeholder="CORREO (CORREO@EMAIL.COM)"><br><br>
+                </div>
+
+                <div class="telefono">
+                <label for="telefono"></label><br>
+                <input type="tel" id="telefono" name="telefono" required placeholder="TELEFONO (+34 XXX XXX XXX):"><br><br>
+                </div>
+
+                <div class="tema">
+                <label for="tema"></label><br>
+                <select id="tema" name="tema" required>
+                  <option value="Consulta">Consulta</option>
+                  <option value="Sugerencia">Sugerencia</option>
+                  <option value="Soporte">Soporte</option>
+                  <option value="Otros">Otros</option>
+                </select><br><br>
+                </div>
+
+                <div class="mensaje">
+                <label for="mensaje"></label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder="MENSAJE"></textarea><br><br>
+                </div>
+
+                <div class="condiciones">
+                <input type="checkbox" id="condiciones" name="condiciones" required class="checkbox">
+                <label for="condiciones" class="checkbox">Acepto las <a>condiciones</a></label><br><br>
+                </div>
+
+                <div class="enviar">
+                <input type="submit" value="Enviar" class="boton_enviar">
+                </div>
+              </form>
         </div>
 
     </div>
