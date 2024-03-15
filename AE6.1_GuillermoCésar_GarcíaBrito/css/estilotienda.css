@@ -1,0 +1,113 @@
+
+.main_container {
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.sub_header {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.menu_tienda {
+    display: flow-root;
+    border: solid 1px black;
+}
+
+.tienda {
+    list-style: none;
+    display: flow-root;
+    margin-top: 50px;
+}
+
+.tienda > .tienda_item {
+    float: left;
+    width: 20%;
+    border: solid 1px red;
+    text-align: center;
+    margin-left: 5%;
+    display: flow-root;
+}
+
+.tienda > .tienda_item > img {
+    height: 250px;
+    width: 100%;
+}
+
+.tienda > .tienda_item > h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.tienda > .tienda_item > h5 {
+    font-size: 1.5rem;
+    display: flow-root;
+}
+
+.tienda > .tienda_item > p {
+    background-color: grey;
+    padding: 5px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.tienda > .tienda_item > p > a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+.tienda > .tienda_item > p:hover{
+    background-color: black;
+    color: white;
+}
+
+.tienda_paginas {
+    list-style: none;
+    display: flow-root;
+    margin-top: 20px;
+    float: right;
+    border: solid 1px black;
+    width: 20%;
+}
+
+.tienda_paginas > .boton_pagina {
+    float: left;
+    border: solid 1px red;
+    text-align: center;
+    display: flow-root;
+    margin-left: 7%;
+    display: block;
+}
+
+.tienda_paginas > .boton_pagina > li {
+    display: block;
+}
+
+.tienda_paginas > .boton_pagina > a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 50px;
+}
+
+.tienda_paginas > .boton_pagina > a:hover {
+    color: black;
+    background-color: lightgrey;
+}
