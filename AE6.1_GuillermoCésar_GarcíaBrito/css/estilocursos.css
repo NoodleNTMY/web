@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.main_container {
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.sub_header {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: flow-root;
+}
+
+.small {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+
+.curso_falsificacion{ 
+    display: flow-root;
+    border: solid 1px black;
+}
+
+.curso_falsificacion > img {
+    width: 45%;
+    padding-left: 2%;
+    padding-right: 3%;
+    float: left;
+}
+
+.curso_falsificacion > h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding-top: 55px;
+    padding-bottom: 7px;
+}
+
+.curso_falsificacion > p {
+    font-size: 3rem;
+}
+
+.curso_diseño{ 
+    display: flow-root;
+    border: solid 1px black;
+}
+
+.curso_diseño > img {
+    width: 45%;
+    padding-left: 2%;
+    padding-right: 3%;
+    float: right;
+}
+
+.curso_diseño > h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding-top: 55px;
+    padding-bottom: 7px;
+    padding-left: 2%;
+}
+
+.curso_diseño > p {
+    font-size: 3rem;
+    padding-left: 2%;
+}
