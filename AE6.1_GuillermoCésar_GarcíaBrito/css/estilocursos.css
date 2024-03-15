@@ -2,7 +2,6 @@
 /* --- Guillermo César García Brito --- */
 
 .main_container {
-    border: solid 1px black;
     padding: 10px;
     margin-top: 10px;
     display: flow-root;
@@ -28,7 +27,6 @@
 
 .curso_falsificacion{ 
     display: flow-root;
-    border: solid 1px black;
     margin-top: 25px;
 }
 
@@ -52,7 +50,6 @@
 
 .curso_diseño{ 
     display: flow-root;
-    border: solid 1px black;
     margin-top: 25px;
 }
 

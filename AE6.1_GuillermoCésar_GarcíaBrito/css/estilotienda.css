@@ -2,7 +2,6 @@
 /* --- Guillermo César García Brito --- */
 
 .main_container {
-    border: solid 1px black;
     padding: 10px;
     margin-top: 10px;
     display: flow-root;
@@ -22,7 +21,6 @@
 
 .menu_tienda {
     display: flow-root;
-    border: solid 1px black;
 }
 
 .tienda {
@@ -34,7 +32,6 @@
 .tienda > .tienda_item {
     float: left;
     width: 20%;
-    border: solid 1px red;
     text-align: center;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -84,13 +81,11 @@
     display: flow-root;
     margin-top: 20px;
     float: right;
-    border: solid 1px black;
     width: 20%;
 }
 
 .tienda_paginas > .boton_pagina {
     float: left;
-    border: solid 1px red;
     text-align: center;
     display: flow-root;
     margin-left: 7%;
