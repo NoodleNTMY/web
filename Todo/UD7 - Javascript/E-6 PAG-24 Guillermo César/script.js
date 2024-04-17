@@ -4,9 +4,7 @@ do {
     
     if (cont%2==1){
         console.log(cont);
-        cont++
-    } else {
-        cont++ 
-    }
+    } 
+    cont++
 
-} while (cont<51);
+} while (cont<=50);
