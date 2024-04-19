@@ -3,4 +3,4 @@ let cont= 50;
 do {
     console.log(cont);
     cont++;
-} while (cont<71);
+} while (cont<=70);
