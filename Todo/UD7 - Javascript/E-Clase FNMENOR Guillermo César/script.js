@@ -6,5 +6,7 @@ function menor (a,b){
     }
 }
 
-let valor = menor (1,8);
+let a = prompt("Introduzca un primer valor:");
+let b = prompt("Introduzca un segundo valor:");
+let valor = menor (a,b);
 console.log(valor);
