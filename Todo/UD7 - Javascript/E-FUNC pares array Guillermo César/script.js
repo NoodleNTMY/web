@@ -21,5 +21,7 @@ function MostrarPares(a){
 }
 
 let num = prompt("Introduzca un numero:");
+
 let valor = PrimerosPares (num);
+
 MostrarPares (valor);
