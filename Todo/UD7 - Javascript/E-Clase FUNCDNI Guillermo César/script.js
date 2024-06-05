@@ -79,6 +79,5 @@ function DNI(){
 
     let resultado = esDNIvalido(dni);
     alert('El dni introducido es: ' + resultado);
-    break;
 }
 DNI();
