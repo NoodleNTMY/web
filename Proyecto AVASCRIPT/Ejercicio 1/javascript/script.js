@@ -184,17 +184,18 @@
         return Math.floor(Math.random() * (maximo + 1));
     }
     
-
+    // Destacar el uso de ayudas externas para la elaboracion de este apartado, tanto IA como compañeros.
     function ultimaLetra() {
         let frase = prompt("Introduce una frase:");
-        // La frase se divide en un arreglo de palabras utilizando el comando split(" "), que separa la cadena de texto por los espacios en blanco. 
-        // Cada palabra se almacena como un elemento en el arreglo palabras.
+        // La frase se divide en un array de palabras utilizando el comando split(" "), que separa la cadena de texto por los espacios en blanco. 
         let palabras = frase.split(" ");
+        // Se utiliza el comando map para transformar cada palabra en el array palabras. Para cada palabra, se toma la última letra (palabra.slice(-1)) y se convierte a mayúsculas  
+        // (toUpperCase()). El método slice(-1) extrae la última letra de una cadena. Luego, las letras resultantes se unen en una sola cadena usando el método join("").
         let resultado = palabras.map(palabra => palabra.slice(-1).toUpperCase()).join("");
     
         alert("La palabra formada por las últimas letras de cada palabra es: " + resultado);
     }
     
-    // Ejecutar la función principal
+    // Ejecutar la función principal.
     IntroducirValor();
     
