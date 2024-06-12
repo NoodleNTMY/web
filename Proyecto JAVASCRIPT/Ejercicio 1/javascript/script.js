@@ -196,6 +196,6 @@
         alert("La palabra formada por las últimas letras de cada palabra es: " + resultado);
     }
     
-    // Ejecutar la función principal.
+    // Ejecuta la función principal.
     IntroducirValor();
     
